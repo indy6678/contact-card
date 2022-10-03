@@ -23,5 +23,8 @@
   "homepage": "https://github.com/indy6678/contact-card#readme",
   "dependencies": {
     "concurrently": "^7.4.0"
-  }
+  },"engines": {
+    "node": "16.17"
+  },
+  "heroku-prebuild": "npm install --dev"
 }

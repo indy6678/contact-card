@@ -4,9 +4,6 @@
 import "./form";
 import "./submit";
 
-// import CSS files
-import "../css/index.css";
-
 // import Bootstrap
 import {Tooltip, Toast, Popover} from 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -21,3 +18,6 @@ window.addEventListener('load', function() {
     this.document.getElementById('bearThumbnail').src = Bear;
     document.getElementById('dogThumbnail').src = Dog;
 });
+
+// import CSS files
+import "../css/index.css";
